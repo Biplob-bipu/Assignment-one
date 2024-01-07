@@ -1,4 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
 *{
     margin:0;
     padding:0;
+    font-family: Merriweather;
+}
+.container{
+    width:83%;
+    max-width: 1320px;
+    margin:0 auto;
+}
+.banner{
+    margin:50px;   
+
+}
+
+.banner_message{
+    text-align: center;
+    position:relative; 
+    padding-top: 177px;
+
+      
+}
+.banner_message h3{
+    color: #FFF;
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.banner_message h1{
+    color: #FFF;
+    text-align: center;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    width:632px;
+    height:190px;
+    padding-left: 280px;
+}
+.banner img{
+    position: absolute;
+    opacity: ;
+
 }
