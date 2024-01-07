@@ -12,6 +12,15 @@
 }
 .banner{
     margin:50px;   
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/Banner Image.png');
+    height:590px;
+    width: 1315px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+.banner img{
+    position: absolute;
+    opacity: ;
 
 }
 
@@ -25,10 +34,11 @@
 .banner_message h3{
     color: #FFF;
     text-align: center;
-    font-size: 32px;
+    font-size: 42px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    padding-left: 20px;
 }
 .banner_message h1{
     color: #FFF;
@@ -39,10 +49,5 @@
     line-height: 95px;
     width:632px;
     height:190px;
-    padding-left: 280px;
-}
-.banner img{
-    position: absolute;
-    opacity: ;
-
+    padding-left: 340px;
 }
