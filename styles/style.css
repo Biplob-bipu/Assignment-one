@@ -6,21 +6,23 @@
     font-family: Merriweather;
 }
 .container{
-    width:83%;
+    width:82%;
     max-width: 1320px;
     margin:0 auto;
 }
+
+/* banner style */
+
 .banner{
     margin:50px;   
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../images/Banner Image.png');
-    height:590px;
+    height:598px;
     width: 1315px;
     background-repeat: no-repeat;
     border-radius: 10px;
 }
 .banner img{
     position: absolute;
-    opacity: ;
 
 }
 
@@ -50,4 +52,45 @@
     width:632px;
     height:190px;
     padding-left: 340px;
+}
+
+/* Offer section style */
+
+.offer{
+    text-align: center;
+    margin-top: 100px;
+}
+.offer h1{
+    font-family: Inter;
+    font-size: 88px;
+    font-weight: 700;
+    line-height: 107px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FF0000;
+}
+
+.offer p{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FF0000;
+    margin-top: 48px;
+    margin-bottom: 10px;
+}
+.offer h3{
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+.new_year{
+    text-align: center;
+    margin-top: 50px;
 }
