@@ -97,15 +97,13 @@
 
 /* midnight_party section style */
 
-.midnight_party{
-    position: relative;
+/* .midnight_party{
+    position: absolute;
     display: flex;
-    padding: 15px;
 }
 .message_section{
     position: absolute;
-    float:left;
-    
+    width: 1320px;
 }
 
 .welcome_message{
@@ -123,6 +121,7 @@
     letter-spacing: 0.11em;
     text-align: left;
     margin-bottom: 24px;
+    width: 642px;
 
 
 }
@@ -135,5 +134,49 @@
     color: rgba(223, 212, 195, 0.822); 
 }
 .welcome_year{
-    text-align: right;
+    position: absolute;
+} */
+
+.midnight_party{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.4)), url('../images/Vectorrr.png');
+    
+    display:flex;
+    height: 600px;
+    border-radius: 15px;
 }
+.welcome_message{
+  
+    margin-bottom: 24px;
+    padding-top: 126px;
+    padding-left: 126px;
+    width:697px;
+}
+
+.welcome_message h3{
+    color:#FFFFFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 0.11em;
+    text-align: left;
+
+}
+
+
+.welcome_year{
+    padding-left: 900px;
+    position: absolute;
+    padding-top: 50px;
+    
+}
+
+.welcome_message p {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 37px;
+    text-align: left;
+    color: rgba(223, 212, 195, 0.822);
+    margin-top: 24px;
+    margin-bottom: 25px;
