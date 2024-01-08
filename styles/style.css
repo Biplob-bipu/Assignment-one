@@ -86,11 +86,54 @@
     font-size: 48px;
     font-weight: 700;
     line-height: 58px;
-    letter-spacing: 0em;
     text-align: center;
 
 }
 .new_year{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 120px;
+}
+
+/* midnight_party section style */
+
+.midnight_party{
+    position: relative;
+    display: flex;
+    padding: 15px;
+}
+.message_section{
+    position: absolute;
+    float:left;
+    
+}
+
+.welcome_message{
+    width: 697px;
+    padding-top:126px;
+    padding-left:126px;
+}
+
+.welcome_message h3{
+    color:#FFFFFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 0.11em;
+    text-align: left;
+    margin-bottom: 24px;
+
+
+}
+.welcome_message p{
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: rgba(223, 212, 195, 0.822); 
+}
+.welcome_year{
+    text-align: right;
 }
