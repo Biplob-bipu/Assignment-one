@@ -217,11 +217,20 @@
     margin-right: 10px;
     margin-bottom: 0px;
 }
+.portfolio_image_one img:hover{
+    cursor: pointer;
+    opacity:0.5;
+    color:#1b3a4e;
+}
 .portfolio_image_two{
     margin-top: 20px;
     margin-bottom: 10px;
 }
-
+.portfolio_image_two img:hover{
+    cursor: pointer;
+    opacity:0.5;
+    color:#1b3a4e;
+}
 .portfolio_image_two img{
     width:424px;
     height: 450px;
@@ -261,27 +270,52 @@
     margin: 10px;
 }
 
-.subscribe input{
-    margin-top: 66px;
+.email{
+    /* margin-top: 66px;
     width: 490px;
     border: #FFFFFF;
-    border-radius: 50px;
-    padding: 20px;
+    padding: 17px;
     margin-bottom: 5%;
+    border-radius: 20px;
+    height: -1px; */
+
+    margin-top: 48px;
+    margin-bottom:5%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 17px;
+    width: 490px;
+    border:0px solid #FFFF;
 }
-.subscribe button{}
-.news__btn{
-    padding: 10px;
-    border-radius: 50px;
-    /* border-color: red; */
-    background: red;
+
+.news_btn{
+    /* padding: 10px;
+    background: #F00;
     color: #ffff;
-    font-size: 20px;  
+    font-size: 20px;
+    margin-left: -8%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 0px solid;
+    height: 52px; */
+
+    background: #F00;
+    color: #ffff;
+    border: 0px solid;
+    padding:17px;
+    font-size: 15px;
+
 }
+
 .news_btn:hover{
-    pointer-events: fill ;
-    color: greenyellow;
-    text-decoration: none;
+    background-color: #1b3a4e;
+    cursor:pointer;
+    opacity:0.5;
+    font-size:17px;
+    transition-duration: 0.3s;
+
+
+    
 }
 
 /* footer area style */
@@ -296,21 +330,11 @@
     margin-top: 50px;
 }
 .address{
-    /* color: #FFF;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-margin-top:120px;
-margin-bottom: 50px;
- */
-
-
-color: #FFF;
-font-size: 22px;
-margin-top: 120px;
-margin-bottom: 50px;
-line-height: 2;
+    color: #FFF;
+    font-size: 22px;
+    margin-top: 120px;
+    margin-bottom: 50px;
+    line-height: 2;
 }
 .contact{
     color: #FFF;
@@ -318,6 +342,9 @@ line-height: 2;
     margin-top: 120px;
     margin-bottom: 50px;
     line-height: 2;
+}
+.contact span{
+    padding:20px;
 }
 .social_icon{
     text-align:center;
